@@ -12,12 +12,17 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="523.0" styleClass="fondo" stylesheets="@Sign%20in.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Boton">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
    <children>
+      <Pane prefHeight="474.0" prefWidth="523.0" styleClass="fondo" stylesheets="@Paneles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane prefHeight="474.0" prefWidth="523.0" stylesheets="@Paneles.css" />
+      <Pane prefHeight="474.0" prefWidth="523.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane prefHeight="474.0" prefWidth="523.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
       <GridPane alignment="CENTER" layoutX="137.0" layoutY="62.0" prefHeight="474.0" prefWidth="523.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="169.0" minWidth="10.0" prefWidth="84.0" />
@@ -76,7 +81,7 @@
                      </VBox.margin>
                      <children>
                         <Label alignment="CENTER" text="Forgot password?" />
-                        <Label alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" onMouseClicked="#crearCuenta" styleClass="cuenta" stylesheets="@Sign%20in.css" text="Create new account">
+                        <Label fx:id="cerrarVentana" alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" onMouseClicked="#crearCuenta" styleClass="cuenta" stylesheets="@Sign%20in.css" text="Create new account">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
