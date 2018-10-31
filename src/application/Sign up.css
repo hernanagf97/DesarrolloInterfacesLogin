@@ -1,0 +1,21 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.fondo{
+	-fx-background-color:  linear-gradient( from 100.0% 0.0% to 100.0% 100.0%, rgb(179,102,128) 0.0, rgb(0,0,0) 100.0)
+}
+
+.boton {-fx-background-color: rgb(128,77,128);
+	-fx-text-fill: light-orange;
+}
+.boton:hover {-fx-background-color: #ff8800;
+			-fx-text-fill: black;
+}
+
+.boton{
+	-fx-effect: dropshadow(three-pass-box, orange, 10, 0, 0, 0);
+}
+
+.cuenta:hover{
+	
+	-fx-text-fill: rgb(0,0,255);
+}
