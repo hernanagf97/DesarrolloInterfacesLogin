@@ -11,20 +11,20 @@ import javafx.scene.layout.BorderPane;
 
 
 public class Main extends Application {
-	AnchorPane mypane;
+	AnchorPane myPane;
 	@Override
 	public void start(Stage primaryStage) {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("Login.fxml"));
 		
 		
 		try {
-			mypane = (AnchorPane) loader.load();
+			myPane = (AnchorPane) loader.load();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		primaryStage.setTitle("Sign in");
-		primaryStage.setScene(new Scene(mypane));
+		primaryStage.setScene(new Scene(myPane));
 		primaryStage.show();
 	}
 	

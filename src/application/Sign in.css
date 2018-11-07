@@ -3,7 +3,7 @@
 
 
 .boton {-fx-background-color: #ff8800;
-	-fx-text-fill: light-orange;
+	
 }
 .boton:hover {-fx-background-color: rgb(128.0,77.0,128.0);
 			-fx-text-fill: white;
