@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-public class Boton {
+public class Controlador {
 	private AnchorPane mypane;
 	
 	@FXML
