@@ -9,7 +9,12 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 
-
+/**
+ * 
+ * @author hernan
+ * @version 1.0
+ * @see Controlador
+ */
 public class Main extends Application {
 	AnchorPane myPane;
 	@Override
